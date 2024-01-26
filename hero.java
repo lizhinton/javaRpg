@@ -1,3 +1,4 @@
+package model;
 /**
  * Liz Hinton
  * CIS175 - Fall 2023
@@ -6,6 +7,9 @@
 
 //a class for use in an rpg video game, this would be the player character
 //I might make this a superclass later, or just add to this class, it depends on how I expand this project
+
+//adding to this class, entries in the database would be indicative of saves or runs in the context of a full game
+@Entity
 
 public class hero{
 	//variables
